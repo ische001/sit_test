@@ -1,0 +1,5 @@
+---
+# tasks file for test_vars_from
+- name: Output a debug message
+  debug:
+    msg: Value of mytestvar is {{ mytestvar }}
