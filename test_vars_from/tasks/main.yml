@@ -3,3 +3,8 @@
 - name: Output a debug message
   debug:
     msg: Value of mytestvar is {{ mytestvar }}
+    
+- name: Export all assets
+  export:
+    all: True
+  register: export_output
